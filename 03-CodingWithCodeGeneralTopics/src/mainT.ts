@@ -5,7 +5,9 @@ export function doubleT(arg: number, second: any) {
 export const printMessageT = (message: string) => {
     console.log(message)
 }
-
+/**
+ * This is the main handler
+ */
 export class MainHandler {
 
     private ports: string[] = []
@@ -19,3 +21,5 @@ export class MainHandler {
         return this.ports[index]
     }
 }
+
+const a = new MainHandler()
