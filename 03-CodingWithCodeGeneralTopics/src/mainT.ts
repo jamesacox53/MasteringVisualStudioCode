@@ -1,25 +1,25 @@
 export function doubleT(arg: number, second: any) {
-    return arg * arg
+	return arg * arg
 }
 
 export const printMessageT = (message: string) => {
-    console.log(message)
+	console.log(message)
 }
 /**
- * This is the main handler
- */
+	* This is the main handler
+	*/
 export class MainHandler {
 
-    private ports: string[] = []
+	private ports: string[] = []
 
 
-    registerPort(port: string) {
-        this.ports.push(port)
-    }
+	registerPort(port: string) {
+		this.ports.push(port)
+	}
 
-    getPort(index: number): string | undefined {
-        return this.ports[index]
-    }
+	getPort(index: number): string | undefined {
+		return this.ports[index]
+	}
 }
 
 const a = new MainHandler()
