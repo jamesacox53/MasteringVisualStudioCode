@@ -12,6 +12,10 @@ const printMessage = (message)=>{
     console.log(message)
 }
 
+for (const element of object) {
+    console.log(element)
+}
+
 const capital = toUpperCase('hello')
 
 const coolVariable = square(2);

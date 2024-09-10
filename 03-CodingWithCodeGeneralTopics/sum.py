@@ -16,6 +16,7 @@ print("The sum of {0} and {1} is {2}".format(num1, num2, sum))
 name = 'John'
 print(f'Hello {name}')
 
+print(f'Hello World')
 
 def say_hello():
     print("Hello!")
