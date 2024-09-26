@@ -9,6 +9,12 @@
             "request": "launch",
             "name": "Launch Main File",
             "program": "${workspaceFolder}\\03-CodingWithCodeGeneralTopics\\src\\main.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Server debug",
+            "program": "${workspaceFolder}\\05-JavaScriptTypeScriptNodeJS\\01-JavaScript\\src\\back\\Server.js"
         }
     ]
 }
