@@ -46,6 +46,13 @@
             "args": [
                 "${workspaceFolder}\\05-JavaScriptTypeScriptNodeJS\\02-TypeScript\\src\\back\\Server.ts"
             ]
-        }
+        },
+        {
+            "name": "Debug Browser ts",
+            "request": "launch",
+            "type": "chrome",
+            "url": "file:///${workspaceFolder}/05-JavaScriptTypeScriptNodeJS/02-TypeScript/src/front/index.html",
+            "webRoot": "${workspaceFolder}\\05-JavaScriptTypeScriptNodeJS\\02-TypeScript\\src\\front"
+        },
     ]
 }
