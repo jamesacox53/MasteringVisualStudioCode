@@ -22,6 +22,30 @@
             "request": "launch",
             "name": "Server debug",
             "program": "${workspaceFolder}\\05-JavaScriptTypeScriptNodeJS\\01-JavaScript\\src\\back\\Server.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Server debug ts",
+            "program": "${workspaceFolder}\\05-JavaScriptTypeScriptNodeJS\\02-TypeScript\\src\\back\\Server.ts",
+            "preLaunchTask": "tsc: build - 05-JavaScriptTypeScriptNodeJS/02-TypeScript/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}\\05-JavaScriptTypeScriptNodeJS\\02-TypeScript\\dist\\**\\*.(m|c|)js",
+                "!**/node_modules/**"
+            ]
+        },
+        {
+            "type": "node",
+            "name": "Server debug with ts-node",
+            "request": "launch",
+            "runtimeArgs": [
+                "-r",
+                "${workspaceFolder}\\05-JavaScriptTypeScriptNodeJS\\02-TypeScript\\node_modules\\ts-node\\register"
+            ],
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "${workspaceFolder}\\05-JavaScriptTypeScriptNodeJS\\02-TypeScript\\src\\back\\Server.ts"
+            ]
         }
     ]
 }
