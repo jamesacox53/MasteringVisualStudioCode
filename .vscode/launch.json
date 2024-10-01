@@ -61,14 +61,21 @@
             "preLaunchTask": "npm: start - 05-JavaScriptTypeScriptNodeJS/05-Angular",
             // "preLaunchTask": "npm: start",
             "url": "http://localhost:4200/"
-          },
-          {
+        },
+        {
             "name": "ng test",
             "type": "chrome",
             "request": "launch",
             "preLaunchTask": "npm: test - 05-JavaScriptTypeScriptNodeJS/05-Angular",
             // "preLaunchTask": "npm: test",
             "url": "http://localhost:9876/debug.html"
-          }
+        },
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
     ]
 }
