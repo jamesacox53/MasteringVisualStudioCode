@@ -7,5 +7,6 @@
         "06-Python"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "java.format.settings.url": "eclipse-formatter.xml"
 }
