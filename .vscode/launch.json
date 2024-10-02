@@ -5,13 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "com.barosanu.Main",
-            "projectName": "test-java"
-        },
-        {
             "name": "Debug Browser",
             "request": "launch",
             "type": "chrome",
@@ -81,6 +74,19 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Java: Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Java: Main",
+            "request": "launch",
+            "mainClass": "com.barosanu.Main",
+            "projectName": "test-java"
         }
     ]
 }
